@@ -14,7 +14,7 @@ import dalvik.system.PathClassLoader;
  * classloader方式的修复bug
  * <p>
  * build-rebuild  build-class目录下面复制生成的class文件，将class的完整路径复制下来
- * 通过 dx --dex=输出路径/classes2.dex  需要生成的class完整目录
+ * 通过 dx --dex --output=输出路径/classes2.dex  需要生成的class完整目录
  * <p>
  * 将这个文件push到sdcard目录下面进行测试
  */

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editText = (EditText) findViewById(R.id.edit);
-        editText.setText("12312");
+        editText.setText("修复好了");
 
         requestPermission();
 
